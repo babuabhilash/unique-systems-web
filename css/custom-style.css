@@ -15,3 +15,16 @@
     margin: 10px 0; */
 
 }
+.nav-link::after{   
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;  
+    transition: 0.5s;  
+}
+.nav-link:hover:after{
+    width: 100%;
+}
+
